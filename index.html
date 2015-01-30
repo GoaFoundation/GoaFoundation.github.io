@@ -1,0 +1,35 @@
+---
+layout: default
+title: Goa Foundation
+---
+
+<div class="section" id="about">
+            <p>
+                The Goa Foundation is the most well known of Goa’s environmental action groups. Founded in 1986 by a group of Goan environmentalists each flighting his or her own individual environmental battles, the organisation today commands the respect of judiciary, government and the general public for persisting with its environment agenda for more than two decades.
+                <br/>
+                The work of the Foundation spans different areas and fields, all related in some way or another with the conservation of Goa’s natural environment:
+            </p>
+</div>
+
+{% assign post = site.posts.first %}
+<div class="section page-content">
+
+  <div class="section first-post">
+    <a href="{{ post.url | prepend: site.baseurl   }}"><h3 class="title">{{ post.title }}</h3></a>
+    <p class="description">
+      {{ post.excerpt }}
+    </p>
+  </div>
+
+  
+  {% for page in site.pages %}
+  <div class=" section pages">
+    {% if page.url != '/index.html'%}
+      <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="title">{{ page.title }}</h3></a>
+      <p class="description">
+      {{ page.description }}
+      </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

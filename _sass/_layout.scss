@@ -1,0 +1,253 @@
+/**
+ * Site header
+ */
+ .header img {
+    padding: 40px;
+    margin-left:10px; 
+    margin-top:-10px;
+    /*border-bottom: 1px solid $border-color;*/
+}
+.header { 
+    position:fixed;
+    border-right:1px solid $border-color;
+    height:100%;
+}
+
+.social-icons { 
+    text-align: center;
+    padding: 5px 70px 70px;
+}
+
+.social-icons i {
+    border-radius: 350px;
+    padding: 10px;
+    /*margin-left:auto;
+    margin-right: auto;*/
+    border:1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+.glyphicon {
+    color: black;
+    padding: 5px;
+}
+
+/**
+ * Site content
+*/
+.content a {
+    text-transform: uppercase;
+}
+.content a:hover {
+    text-decoration: none;
+    color: $link-color; 
+    
+    .glyphicon{
+        color: $link-color;
+    }
+}
+.content {
+    margin-top: 25px;
+    padding-left: 95px;
+}
+.content .title {
+    text-transform: uppercase;
+}
+
+#about {
+    border-bottom:1px solid $border-color;
+    padding-bottom: 30px;
+}
+.back-button {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+/**
+ * Site footer
+ */
+
+.footer {
+    border-top: 1px solid $border-color;
+    margin-top:40px;
+    padding-top:10px;
+    
+    font-size: 16px;
+}
+.footer #contact {
+    /*position: relative;*/
+    margin-top: -60px;
+    bottom: -70px;
+}
+
+/**
+ * Page content
+ */
+.first-post {
+    padding-top: 20px;
+}
+
+.post-nav {
+    margin-top:20px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pages {
+    margin-top: 30px;
+}
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.posts {
+    padding-top: 30px;
+    font-size: 14px;
+}
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    padding-top: 20px;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.breadcrumb a {
+    color: $brand-color;
+}
+.breadcrumb {
+    background-color: inherit;
+}
+.pil-list {
+    list-style: none;
+}
+.pil-list a:hover {
+    text-decoration: underline;
+}
+.pil-list li {
+    padding-top: 30px;
+}
+.pil-title {
+    color: #764200;
+    font-size: 18px;
+}
+
+.pil-description {
+    font-size: 16px;
+}
+.post-content {
+    margin-bottom: $spacing-unit;
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+
+    }
+
+    h3 {
+        font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 16px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+
+    }
+}
+
+/**
+* Mobile specific styles
+*/
+@include media-query($on-laptop) {
+    .content {
+        padding:25px;
+      
+    }
+    .social-icons {
+        padding: 10px;
+    }
+}
+
+@include media-query($on-mobile) {
+    .header {
+        width:100%;
+        height: auto;
+        padding-bottom: 20px;
+        position: relative;
+        border-bottom: 1px solid $border-color;
+    }
+    .header img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 250px;
+    }
+    .content {
+        padding: 30px;
+        font-size: 16px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .social-icons {
+        padding: 0px 30px 30px;
+        margin-top: -25px;
+    }
+
+    .post-nav {
+        font-size: 14px;
+    }
+    .post-title {
+        font-size: 28px;
+    }
+    .footer {
+        font-size: 15px;
+        margin: auto;
+        width: 100%;
+    }
+    .pil-title {
+        font-size: 16px;
+    }
+    .pil-description {
+        font-size: 15px;
+    }
+}

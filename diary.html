@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Diary"
+tags: 'diary'
+permalink: /diary/
+description: blog posts and stuff
+---
+
+
+{% for post in site.posts %}
+  <div class="section posts">
+     <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title">{{ post.title }}</h3></a><span>{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+{% endfor %}
