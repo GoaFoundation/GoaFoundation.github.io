@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'freight-text-pro',sans-serif;
+$base-font-family: 'freight-text-pro',serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -19,6 +19,7 @@ $border-color:	   #F2F2F2;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #006A51;
+$brand-color-light:lighten($brand-color, 2%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

@@ -2,7 +2,7 @@
 layout: post
 title:  "thoughts on stuff"
 date: 2015-01-29 
-categories: diary
+categories: diary post
 description: ""
 ---
 

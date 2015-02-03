@@ -3,12 +3,14 @@ layout: page
 title: "Diary"
 tags: 'diary'
 permalink: /diary/
-description: blog posts and stuff
+description: The goa foundation was founded in the year 1986, 			   celebrating its 25 years in 2011. The 'Diary' 				 provides a summary of the main events of those 			 25 years and beyond.
 ---
 
 
+
 {% for post in site.posts %}
-  <div class="section posts">
-     <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title">{{ post.title }}</h3></a><span>{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="section blog-posts">
+     <span class="blog-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
+     <span>{{ post.date | date: "%b %-d, %Y" }}</span>
   </div>
 {% endfor %}

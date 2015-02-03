@@ -1,7 +1,20 @@
 <div class="footer" >
+	{%	if page.url != '/index.html' %}
       <address class='col-md-6 col-xs-12 ' id="contact">
-        <p>For more info leave a comment on <a href="http://facebook.com/GoaFoundation">facebook</a> or follow us on  <a href="http://twitter.com/GoaFoundation">twitter</a>
+        <p>For more info leave a comment on <a href="http://facebook.com/GoaFoundation">facebook</a> or email to <a href="mailto: goafoundation@gmail.com ">goafoundation@gmail.com</a>
         </p>
       </address>
+     {% else %}
+     <address class='col-md-6 col-xs-12 ' id="contact">
+      	Goa Foundation
+		G-8, St Britto’s Apts, Feira Alta,
+		Mapusa, Bardez,
+		Goa – 403507, India
+
+		<br/><span class="glyphicon glyphicon-phone-alt "></span>: +91-832-2256479 / 2263305 (fax)
+		
+		<br/><span class="glyphicon glyphicon-envelope"></span>: <a href="mailto: goafoundation@gmail.com">goafoundation@gmail.com</a>
+      </address>
+     {% endif %}
 </div>
 
