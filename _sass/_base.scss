@@ -19,10 +19,22 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    overflow-y: auto;
-    overflow-x: hidden;
+    min-height: 780px;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+}
+
+html {
+    min-height: 780px;
+}
+
+/**
+ * Set header title fonts
+ */
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'futura-pt',sans-serif;
+
 }
 
 /**
