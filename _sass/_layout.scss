@@ -1,33 +1,15 @@
 /**
  * Site header
  */
- .header img {
-    padding: 40px;
-    margin-left:10px; 
-    margin-top:-10px;
-    /*border-bottom: 1px solid $border-color;*/
-}
 .header { 
-    position:fixed;
-    border-right:1px solid $border-color;
-    height:100%;
+    /*position:fixed;*/
+
 }
 
-.social-icons { 
-    text-align: center;
-    padding: 5px 70px 70px;
+#main-logo {
+	max-width: 250px;
+	margin: 50px auto 0;
 }
-
-.social-icons i {
-    border-radius: 350px;
-    padding: 10px;
-    /*margin-left:auto;
-    margin-right: auto;*/
-    border:1px solid black;
-    background-color: black;
-    color: white;
-}
-
 
 .glyphicon {
     color: black;
@@ -38,22 +20,23 @@
  * Site content
 */
 .content a {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+}
+
+.content p {
+	margin-bottom: 10px;
 }
 .content a:hover {
     text-decoration: none;
     color: $link-color; 
-    
     .glyphicon{
         color: $link-color;
     }
 }
 .content {
-    margin-top: 25px;
-    padding-left: 95px;
-}
-.content .title {
-    text-transform: uppercase;
+    margin-top: 65px;
+    padding-left: 30px;
+    border-left:1px solid $border-color;
 }
 
 #about {
@@ -62,9 +45,9 @@
 }
 .back-button {
     text-transform: uppercase;
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
 /**
@@ -72,36 +55,80 @@
  */
 
 .footer {
-    border-top: 1px solid $border-color;
-    margin-top:40px;
     padding-top:10px;
-    
-    font-size: 16px;
 }
 .footer #contact {
-    /*position: relative;*/
-    margin-top: -60px;
-    bottom: -70px;
+    line-height: 170%;
+    a {
+        text-transform: inherit;
+    }
+    
 }
 
 /**
  * Page content
  */
-.first-post {
-    padding-top: 20px;
+.recent-posts {
+    padding: 1px 15px 10px;
+}
+.recent-posts {
+
+    .blog-title a {
+        color: $link-color;
+        text-transform: none;
+    
+        &:hover {
+            color: $brand-color;
+        }
+    }
+    .blog-title {
+        font-size: 14px;
+        font-family: $base-title-font;
+        padding-right: 15px;
+    }
 }
 
-.post-nav {
-    margin-top:20px; 
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 .pages {
-    margin-top: 30px;
+    margin-left: 0;
+    li {
+    	list-style: none;
+    	margin-bottom: 15px;
+    	margin-top: 10px;
+    	padding-bottom: 15px;
+    	padding-top: 10px;
+    	border-bottom: 1px solid $border-color;
+    	h3 {
+    		color: lighten($brand-color, 0%);
+    		font-family: $base-title-font;
+    		margin-bottom: 5px;
+    		font-size: 20px;
+    		font-weight: bold;
+    		a {
+    			color: inherit;
+    		}
+    		small {
+    			color: #aaa;
+    			font-weight: bold;
+    			float: right;
+    			margin-top: 4px;
+    		}
+    	}
+    }
 }
+
+.pages-label {
+	text-align: center;
+	border-bottom: 1px solid $border-color;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	padding: 10px 0;
+	font-size: 11px;
+	color: #aaa;
+}
+
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0;
 }
 
 .page-heading {
@@ -123,9 +150,29 @@
 /**
  * Posts
  */
-.posts {
-    padding-top: 30px;
-    font-size: 14px;
+
+.blog-posts {
+	margin-left: 0;
+	li {
+		list-style: none;
+		.blog-title {
+			color: $brand-color;
+			font-family: $base-font-family;
+			font-size: 18px;
+			a {
+				color: inherit;
+			}
+			small {
+				padding-left: 5px;
+				font-style: italic;
+			}
+		}
+	}
+}
+
+.blog-posts a {
+    color: $brand-color; 
+    text-transform: inherit;
 }
 .post-header {
     margin-bottom: $spacing-unit;
@@ -143,6 +190,7 @@
 }
 
 .breadcrumb a {
+    text-transform: inherit;
     color: $brand-color;
 }
 .breadcrumb {
@@ -197,7 +245,7 @@
 /**
 * Mobile specific styles
 */
-@include media-query($on-laptop) {
+/*@include media-query($on-laptop) {
     .content {
         padding:25px;
       
@@ -229,7 +277,7 @@
     }
 
     .social-icons {
-        padding: 0px 30px 30px;
+        padding: 0px 30px;
         margin-top: -25px;
     }
 
@@ -250,4 +298,4 @@
     .pil-description {
         font-size: 15px;
     }
-}
+}*/

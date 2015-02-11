@@ -6,30 +6,42 @@ title: Goa Foundation
 <div class="section" id="about">
             <p>
                 The Goa Foundation is the most well known of Goa’s environmental action groups. Founded in 1986 by a group of Goan environmentalists each flighting his or her own individual environmental battles, the organisation today commands the respect of judiciary, government and the general public for persisting with its environment agenda for more than two decades.
-                <br/>
+            </p>
+            <p>
                 The work of the Foundation spans different areas and fields, all related in some way or another with the conservation of Goa’s natural environment:
             </p>
 </div>
 
-{% assign post = site.posts.first %}
+<!-- {% assign post = site.posts %} -->
 <div class="section page-content">
+	<h4 class="pages-label">Sections</h4>
+	<ul class="pages">
+		<li>
+			<h3><a href="#">Mining in Goa <small>/mining</small></a></h3>
+			<p>The Goa’s Foundation’s legal work on mining, stretching 20 years – from 1992 – culminated in a comprehensive Article 32 writ petition filed by it in the Supreme Court of India.</p>
+		</li>
+		<li>
+			<h3><a href="#">The Highlights Reel <small>/timeline</small></a></h3>
+			<p>The Goa Foundation was founded in the year 1986, celebrating its 25 years in 2011. The “Highlights” provides a summary of the main events of those 25 years and beyond.</p>
+		</li>
+		<li>
+			<h3><a href="/diary/">Journal <small>/journal</small></a></h3>
+			<p>A blog to record activities.</p>
+<!--			{% for post in site.posts limit:3 %}
+			  <div class="section recent-posts">
+			    <span class="blog-title"><a href="{{ post.url | prepend: site.baseurl   }}">{{ post.title }}</a></span> 
+			    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+			  </div>
+			{% endfor %}-->
+		</li>
+		<li>
+			<h3><a href="#">Public Interest Litigation repository <small>/public-interest-litigation</small></a></h3>
+			<p>The Goa Foundation was founded in the year 1986, celebrating its 25 years in 2011. The “Highlights” provides a summary of the main events of those 25 years and beyond.</p>
+		</li>
+		<li>
+			<h3><a href="/donate">Donate <small>/donate</small></a></h3>
+		</li>
+		<li><h3><a href="#">Contact <small>/contact</small></a></h3></li>
+	</ul>
 
-  <div class="section first-post">
-    <a href="{{ post.url | prepend: site.baseurl   }}"><h3 class="title">{{ post.title }}</h3></a>
-    <p class="description">
-      {{ post.excerpt }}
-    </p>
-  </div>
-
-  
-  {% for page in site.pages %}
-  <div class=" section pages">
-    {% if page.url != '/index.html'%}
-      <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="title">{{ page.title }}</h3></a>
-      <p class="description">
-      {{ page.description }}
-      </p>
-    {% endif %}
-  </div>
-  {% endfor %}
 </div>

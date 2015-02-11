@@ -6,19 +6,20 @@
 
 
 // Our variables
-$base-font-family: 'futura-pt',sans-serif;
-$base-serif:		 'freight-text-pro', Garamond, serif;
+$base-font-family: 'freight-text-pro',sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$base-title-font:  'futura-pt',sans-serif;
 
-$link-color:	   #00966e;
+$link-color:	    #00966e;
 $spacing-unit:     30px;
-$border-color:	   #F2F2F2;
+$border-color:	   #dadada;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #006A51;
+$brand-color:      #905756;
+$brand-color-light:lighten($brand-color, 2%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
