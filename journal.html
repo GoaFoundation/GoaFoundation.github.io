@@ -1,0 +1,16 @@
+---
+layout: page
+title: "Journal"
+permalink: /journal/
+description:
+---
+
+
+
+<ul class="section blog-posts">
+{% for post in site.posts %}
+  <li class="post-item">
+     <h3 class="blog-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <small>{{ post.date | date: "%b %-d, %Y" }}</small></a></h3>
+  </li>
+{% endfor %}
+</ul>
