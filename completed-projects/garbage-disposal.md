@@ -1,4 +1,6 @@
 ---
+layout: page
+title: UNDP/GEF/SGF on Environmentally friendly Garbage Disposal Programmes
 ---
 
 UNDP/GEF/SGF on Environmentally friendly Garbage Disposal Programmes

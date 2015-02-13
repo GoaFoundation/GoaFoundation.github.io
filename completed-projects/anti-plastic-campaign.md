@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Anti Plastic Campaign"
+categories: "Completed Projects"
 ---
 
 
@@ -25,10 +26,10 @@ Regular meetings of the Committee during the next three months resulted in the f
 
 As a first step, the State Government took a decision to enforce the ban on use of plastic bags below 20 microns from August 15, 2000. The government sought time till 31st December to complete the steps necessary for full implementation of other aspects of the SWM Report which included:
 
-• a ban on the use of recycled plastic bags for food items;
-• setting up of composting units to take care of biodegradable garbage;
-• arranging for the disposal of non-biodegradable garbage to recycling plants outside the state;
-• ensuring that Garbage Management Committees are set up in all panchayats and municipalities.
+* a ban on the use of recycled plastic bags for food items;
+* setting up of composting units to take care of biodegradable garbage;
+* arranging for the disposal of non-biodegradable garbage to recycling plants outside the state;
+* ensuring that Garbage Management Committees are set up in all panchayats and municipalities.
 
 Taking a cue from the SWM Report and also with a view to strengthen the efforts of the government, GEF decided at its meeting held in Ponda in the mid-July to launch a plastic clean up programme for the entire state of Goa.
 

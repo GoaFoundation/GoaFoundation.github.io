@@ -1,4 +1,6 @@
 ---
+layout: page
+title: Biodiversity in Goa
 ---
 
 1.0 Introduction
