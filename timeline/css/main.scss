@@ -1,4 +1,4 @@
-@import 'bootstrap';
+@import 'bootstrap/bootstrap';
 @charset "UTF-8";
 
 @font-face {
@@ -55,10 +55,10 @@
 
 
 
-$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sansCond: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$thick: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
-$serif: "Bitter", Georgia, Times, serif;
+$sans: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansCond: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$thick: "futura-pt", "Source Sans Pro", Helvetica, sans-serif;
+$serif: "freight-text-pro", Georgia, Times, serif;
 
 $bc: #eee;
 $muteBlue:  #5c6468;

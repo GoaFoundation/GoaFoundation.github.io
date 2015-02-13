@@ -1,5 +1,3 @@
-/* @override 
-	http://goafoundation.org/mining/css/main.css */
 /*
  * HTML5 Boilerplate
  *
@@ -262,7 +260,7 @@ textarea {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 #page {
@@ -295,7 +293,8 @@ body {
 #links h4 {
   font-size: 36px;
   margin-bottom: 25px;
-  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: bold;
   text-transform: uppercase; }
 
 #links li {
@@ -317,6 +316,7 @@ body {
   font-weight: 200; }
 
 p {
+  font-family: "freight-text-pro", Garamond, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%; }
 
@@ -324,7 +324,7 @@ a {
   color: #764100; }
 
 h3 {
-  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -374,7 +374,7 @@ h3 {
   color: white;
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif; }
+  font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif; }
 
 #cover-inner .horizontal-rule {
   background: white;
@@ -400,15 +400,15 @@ h3 {
   border: 1px solid #eeeeee; }
   #petition-block h3 {
     font-weight: 300;
-    font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 42px;
     color: #5c6468; }
   #petition-block h4 {
-    font-weight: 300;
+    font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 0;
-    font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif;
     color: #764100;
     line-height: 120%; }
   #petition-block ul {
@@ -420,12 +420,12 @@ h3 {
       #petition-block ul li h5 {
         font-size: 16px;
         margin-bottom: 5px;
-        font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+        font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
         #petition-block ul li h5 a {
           color: #5c6468; }
       #petition-block ul li span {
         font-style: italic;
-        font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
+        font-family: "freight-text-pro", Garamond, "Times New Roman", Times, serif;
         line-height: 120%;
         margin-top: 3px;
         display: inline-block; }
@@ -433,7 +433,7 @@ h3 {
     border-top: 1px solid #eeeeee;
     margin-top: 0px;
     padding: 30px 0 0px;
-    font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
+    font-family: "freight-text-pro", Garamond, "Times New Roman", Times, serif;
     font-style: italic;
     height: 100%; }
   #petition-block .row {
@@ -449,7 +449,7 @@ h3 {
   font-size: 16px;
   font-weight: 400; }
 .post-judgement ul li {
-  font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #5c6468; }
 .post-judgement h3 {
   font-size: 26px !important;
@@ -477,7 +477,7 @@ h3 {
   line-height: 160%;
   font-weight: 400; }
   #book div p strong {
-    font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #book div ul {
   padding-left: 0;
@@ -492,14 +492,14 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif; }
+  font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif; }
 
 .buy-book {
   display: block;
   float: left;
   text-decoration: none;
   font-weight: bold;
-  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "futura-pt", "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase;
   background: #eee;
   border: 1px solid #ddd;
@@ -618,7 +618,7 @@ h3 {
   color: white; }
   #scroll-tip .scroll-text {
     opacity: 0;
-    font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
+    font-family: "freight-text-pro", Garamond, "Times New Roman", Times, serif;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
