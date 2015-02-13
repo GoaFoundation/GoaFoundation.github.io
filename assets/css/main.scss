@@ -50,6 +50,7 @@ $on-mobile:		   400px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+			"bootstrap/bootstrap",
         "base",
         "syntax-highlighting",
         "layout"

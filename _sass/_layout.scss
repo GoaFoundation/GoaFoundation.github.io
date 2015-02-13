@@ -7,26 +7,38 @@ body {
 }
  
 #header { 
-	 position: fixed;
-	 width: 290px;
-	 height: 500px;
+	 
 	 background: #FBF7E4;
-	 /*border-left: 1px solid $border-color;*/
+	 @media (min-width: $screen-lg) {
+	 	position: fixed;
+	 	width: 290px;
+	 	height: 500px;
+	 }
 }
 
 #main-logo {
 	max-width: 200px;
 	margin: 50px auto 20px;
+	width: 100%;
 }
 
 #header-nav {
 	/*border-top: 1px solid $border-color;*/
 	padding-top: 12px;
-	width: 220px;
+	
 	margin: 0 auto;
-	position: absolute;
-	bottom: 15px;
-	left: 30px;
+	
+	@media (min-width: $screen-lg) {
+		position: absolute;
+		bottom: 15px;
+		left: 30px;
+		width: 220px;
+	}
+	@media (max-width: $screen-xs) {
+		position: absolute;
+		top: 0;
+		right: 10px;
+	}
 	li {
 		float: left;
 		margin: 0 10px;
@@ -34,6 +46,11 @@ body {
 		color: $brand-color;
 		&:last-child {
 			margin-right: 0;
+		}
+		@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			float: none;
+			text-align: center;
+			margin: 0 0;
 		}
 	}
 }
@@ -72,9 +89,15 @@ body {
 #about {
     border-bottom:1px solid $border-color;
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 20px;
     p {
-    	font-size: 22px;
+    	font-size: 18px;
+    }
+    @media (min-width: $screen-sm) {
+    	margin-top: 100px;
+    	p {
+    		font-size: 22px;
+    	}
     }
 }
 .back-button {
@@ -250,8 +273,11 @@ body {
 }
 .breadcrumb {
     background-color: inherit;
-    margin-bottom: 50px;
+    
     margin-top: 20px;
+    @media (min-width: $screen-sm-min) {
+    	margin-bottom: 50px;
+    }
 }
 .pil-list {
     list-style: none;

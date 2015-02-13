@@ -3,12 +3,15 @@
 
 $(document).ready(function() {
 	var winH = $(window).height();
+	var winW = $(window).width();
 		
-	$('#header').css({
-		height: winH
-	});
+	if (winW > 768) {
+		$('#header').css({
+			height: winH
+		});
 	
-	$('.content').css({
-		minHeight: winH
-	});
+		$('.content').css({
+			minHeight: winH
+		});
+	}
 });
