@@ -1,4 +1,8 @@
-@import 'bootstrap/bootstrap';
+---
+# jekyll
+---
+
+@import 'bootstrap/_variables';
 @charset "UTF-8";
 
 @font-face {
@@ -117,7 +121,7 @@ a {
 	}
 	.intro-text {
 		h2 {
-			font-family: $serif;
+			font-family: $sans;
 			font-weight: bold;
 			font-size: 42px;
 			margin-bottom: 15px;
