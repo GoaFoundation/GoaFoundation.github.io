@@ -71,7 +71,7 @@ body {
 
 #about {
     border-bottom:1px solid $border-color;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-top: 100px;
     p {
     	font-size: 22px;
@@ -298,63 +298,3 @@ body {
 
     }
 }
-
-
-
-/**
-* Mobile specific styles
-*/
-/*@include media-query($on-laptop) {
-    .content {
-        padding:25px;
-      
-    }
-    .social-icons {
-        padding: 10px;
-    }
-}
-
-@include media-query($on-mobile) {
-    .header {
-        width:100%;
-        height: auto;
-        padding-bottom: 20px;
-        position: relative;
-        border-bottom: 1px solid $border-color;
-    }
-    .header img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-        height: 250px;
-    }
-    .content {
-        padding: 30px;
-        font-size: 16px;
-        margin: auto;
-        width: 100%;
-    }
-
-    .social-icons {
-        padding: 0px 30px;
-        margin-top: -25px;
-    }
-
-    .post-nav {
-        font-size: 14px;
-    }
-    .post-title {
-        font-size: 28px;
-    }
-    .footer {
-        font-size: 15px;
-        margin: auto;
-        width: 100%;
-    }
-    .pil-title {
-        font-size: 16px;
-    }
-    .pil-description {
-        font-size: 15px;
-    }
-}*/
