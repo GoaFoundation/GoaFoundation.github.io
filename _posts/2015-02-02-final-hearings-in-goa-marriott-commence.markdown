@@ -2,7 +2,6 @@
 layout: post
 title:  "Final Hearings in Goa Foundation Petition on Goa Marriott commence in High Court"
 date: 2015-02-02 
-categories: diary
 description: ""
 ---
 
