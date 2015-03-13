@@ -10,13 +10,11 @@ The Goa Foundation was founded in the year 1986, celebrating its 25 years in 201
 
 A blog to record activities.
 
-### [Public Interest Litigation repository](#)
-
-The Goa Foundation was founded in the year 1986, celebrating its 25 years in 2011. The “Highlights” provides a summary of the main events of those 25 years and beyond.
-
 ### [Goenchi Mati Permanent Fund](/gmpf)
 
 This brochure attempts to explain the main features of the proposal sent by the Goa Foundation to the Chief Minister of Goa on 15 May, 2014.
+
+### [Public Interest Litigation repository](#)
 
 ### [Completed Projects](/completed-projects)
 
