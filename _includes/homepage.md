@@ -10,7 +10,7 @@ The Goa’s Foundation’s legal work on mining, stretching 20 years – from 19
 
 This brochure attempts to explain the main features of the proposal sent by the Goa Foundation to the Chief Minister of Goa on 15 May, 2014.
 
-### [Public Interest Litigation repository](/pil)
+### [Public Interest Litigation repository](/pil.md)
 
 ### [Journal](/journal/)
 
