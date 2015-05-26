@@ -2,7 +2,7 @@
 layout: page
 title: "Public interests litigations repository"
 tags: 'PIL'
-permalink: /public-interest-litigation/
+permalink: /pil/
 description: PIL documents
 ---
 The Synopses and Orders of the many Public Interest Writ Petitions filed by the Goa Foundation before the Bombay High Court (Goa) and the Supreme Court of India are provided in chronological order.
