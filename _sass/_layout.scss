@@ -1,13 +1,23 @@
 /**
  * Site header
  */
- 
+
 body {
 	background: #FBF7E4;
 }
- 
-#header { 
-	 
+
+.blog-image {
+  padding:15px;
+	text-align: center;
+	img {
+		width:420px;
+		@media (max-width:  $screen-xs) {
+			width: 100%;
+		}
+	}
+}
+#header {
+
 	 background: #FBF7E4;
 	 @media (min-width: $screen-lg) {
 	 	position: fixed;
@@ -25,9 +35,9 @@ body {
 #header-nav {
 	/*border-top: 1px solid $border-color;*/
 	padding-top: 12px;
-	
+
 	margin: 0 auto;
-	
+
 	@media (min-width: $screen-lg) {
 		position: absolute;
 		bottom: 15px;
@@ -72,7 +82,7 @@ body {
 }
 .content a:hover {
     text-decoration: none;
-    color: $link-color; 
+    color: $link-color;
     .glyphicon{
         color: $link-color;
     }
@@ -119,7 +129,7 @@ body {
     a {
         text-transform: inherit;
     }
-    
+
 }
 
 /**
@@ -133,7 +143,7 @@ body {
     .blog-title a {
         color: $link-color;
         text-transform: none;
-    
+
         &:hover {
             color: $brand-color;
         }
@@ -169,7 +179,7 @@ body {
  		&:first-of-type {
 			border-top: none;
 			margin-top: 0;
- 		}	
+ 		}
  	}
 }
 
@@ -239,7 +249,7 @@ body {
 }
 
 .blog-posts a {
-    color: $brand-color; 
+    color: $brand-color;
     text-transform: inherit;
 }
 .post-header {
@@ -271,7 +281,7 @@ body {
 }
 .breadcrumb {
     background-color: inherit;
-    
+
     margin-top: 20px;
     @media (min-width: $screen-sm-min) {
     	margin-bottom: 50px;
