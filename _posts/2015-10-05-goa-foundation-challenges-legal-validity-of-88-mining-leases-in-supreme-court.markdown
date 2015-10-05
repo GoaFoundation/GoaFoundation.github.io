@@ -80,6 +80,6 @@ Right now the issue is whether the SC finds substance in the petition. Since thi
 
 [Leases EAC Data](http://goafoundation.org/wp-content/uploads/2015/10/88-leases-EAC-Data.pdf) <br/>
 
-[List of Major Violations](http://goafoundation.org/wp-content/uploads/2015/10/88-List-of-Major Violations.pdf)
+[List of Major Violations](http://goafoundation.org/wp-content/uploads/2015/10/88-List-of-Major-Violations.pdf)
 
 _(Released to media on 29.9.2015)_
