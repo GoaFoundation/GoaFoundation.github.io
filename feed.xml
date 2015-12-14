@@ -1,30 +1,316 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Your awesome title</title>
+    <description>&quot;The Goa Foundation is the most well known of Goa’s environmental action groups.&quot;
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Dec 2015 17:20:09 +0530</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2015 17:20:09 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Mining Companies Fight Permanent Fund</title>
+        <description>&lt;p&gt;GOA FOUNDATION CRITICISES APPLICATIONS OF VEDANTA AND
+OTHER MINING COMPANIES IN THE SUPREME COURT AGAINST
+THE GOA IRON ORE PERMANENT FUND&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Supreme Court, tomorrow (15 December, 2015) will hear applications
+  from 5 mining companies against the continuance of the Goa Iron ore
+  Permanent Fund.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are at the present, 5 IAs which have been filed by 5 mining
+  companies challenging the set up of the Goa Iron Ore Permanent Fund on
+  various grounds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;These applications have been filed by Vedanta, Fomento, G.N. Aggarwal,
+  Geetabhai Parulekar and Prafulla Hede. Prafulla Hede mine is located in 1
+  km zone from Mollem Wildlife Sanctuary and the lease has not been
+  renewed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vedanta’s application (I.A. No 87) seeks a “clarification” of the Goa
+  Foundation judgement dated 21.4.2014 which required all mining companies
+  to deposit 10% of sale value of ores extracted and sold by them in a special
+  Goan Iron Ore Permanent Fund for the benefit of future generations. The
+  application tells the Court that when the Court passed its judgement in the
+  1Goa Foundation case, admikttedly there was no provision for raising money
+  from miners to compensate for environmental damage and harm to village
+  communities. However, after the Mines Act was amended in 2015, there is
+  now a provision for setting up District Mineral Foundations in each mining
+  district. Hence there is no further need for the Permanent Fund and in any
+  case, this would be an instance of “double taxation”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IAs filed by G.N. Aggarwal and Fomento challenge the idea of the
+  Permanent Fund, claiming the issue of a Permanent Fund did not find a
+  place during the hearings that led to judgement dated 21.4.2014 and
+  therefore they were not heard in the matter. They also state that the
+  international price of iron ore has dropped and therefore payments to the
+  Permanent Fund would make mining unviable. Geetabhai Parulekar and
+  Prafulla Hede want their mining activity to be governed by the amended
+  MMDR Act, 1957, in terms of the District Mineral Fund (and not the Goa
+  Permanent Fund).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Vedanta application sets out a willful confusion between the nature of a
+  Permanent Fund (set up under the judgement dated 21.4.2014) and the
+  nature of the District Mineral Fund (DMF) set up under Section 9A of the
+  amended MMDR Act, 1957. The two are different agencies, addressing
+  different aspects of sustainability and Intergenerational Equity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The nature of the DMF can be described succinctly in the following terms:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a) DMF would provide for the expenditures related to rehabilitation of
+environment caused by mining activity. This would also include harm to
+affected village communities in which the activity is being carried out.
+Scope of DMF operations is the district.
+
+2b) The DMF is therefore a spending fund: money deposited in the Fund
+is to be spent on activities covered under the amendment. Therefore,
+the DMF would be in the form of a non-profit trust.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The nature of the Permanent Fund is the very opposite, and can be
+  described succintly in the following terms:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a) The PF would deal with the requirement of meeting the demands of
+intergenerational equity, that is, the interests of future generations, not
+only the present. Therefore, by definition, it would be a fund that would
+save, not spend.
+
+b) Principal activity of the fund would be protection against inflation,
+investment in activities that would create durable assets in the long
+term, etc. PF area would be the entire state. In contrast with the DMF,
+the Fund would be a profit making activity. Fund managers must ensure
+intelligent investments to ensure economic yields, in order to maintain
+the original value of the fund. The public exchequer would benefit only
+when there is a surplus after adjusting for inflation.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Expert Committee of the Supreme Court, in fact, has said that the idea
+  of the Goan Iron Ore Permanent Fund should now be applied in all states
+  where such mining is taking place.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;According to the Goa Foundation, Vedanta should be the last person to file
+  this application. It is well established that the Applicant Vedanta benefitted
+  well beyond any reasonable measure from iron ore extraction belonging to
+  the present and future generations of people living in Goa.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The largesse garnered by the company in the past 8 years of mining is simply staggering.
+  Based on the applicant’s annual reports, our estimates show that during the
+  last 8 full years of mining (2004-05 – 2011-12), the applicant sold Rs. 33,280
+  3crores of iron ore and reported a profit after tax to the extent Rs. 12,346
+  crores! A generous 20% return on assets would have been only Rs. 1,239
+  crores. Thus, Vedanta’s excess profits were to the tune of Rs. 11,108 crores.
+  Had the Permanent Fund imposition been in place during these 8 years, the
+  applicant would have had to pay only a maximum of Rs 3,328 crores, still
+  much smaller than the excess profits that accrued to it.&lt;/p&gt;
+
+&lt;p&gt;This amount would still have been saved for the owners of the iron ore, the future generations of
+  Goans. Through this application, the applicant is now trying to deny even
+  this pittance and caviling at a small amount to be saved for Goa’s future
+  generations.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Goa Foundation is telling the Apex Court that Goans are not beggars
+  who are ready to sell their ore at throwaway rates. If the mining companies
+  are not able to make their contributions to the Permanent Fund, the
+  Government should step in and resume the leases. The ore is owned by the
+  government in any case, on behalf of the public. Prior to 2004, when the
+  mining boom commenced, most mines preferred to remain shut rather than
+  sell ore at ridiculously low international prices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;author-sign&quot;&gt;&lt;img src=&quot;/assets/images/signature.png&quot; alt=&quot;author-signature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Dr Claude Alvares)
+  Director&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Dec 2015 00:00:00 +0530</pubDate>
+        <link>/2015/12/14/mining-companies-fight-permanent-fund.html</link>
+        <guid isPermaLink="true">/2015/12/14/mining-companies-fight-permanent-fund.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Goa Foundation Challenges Legal Validity of 88 Mining Leases in Supreme Court</title>
+        <description>&lt;p&gt;Asks for CBI inquiry into grant of leases, in view of Vigilance Department’s lack of enthusiasm to investigate the complaint. Goa govt. slept over mining lease issue for three years; did nothing to recover money or file criminal complaints against former lessees&lt;/p&gt;
+
+&lt;p&gt;Fully aware that mining will not start in Goa this year, the Goa Foundation decided to approach the Supreme Court with a fresh PIL challenging the renewals illegally granted to 88 former lease holders to continue operations of leases they worked earlier.&lt;/p&gt;
+
+&lt;p&gt;The Foundation’s lawyers are also expected to make a plea to the Court to hear the SLP filed by the Goa Foundation in September last year, challenging the judgement of the Bombay High Court directing the Goa government to renew some of the leases.&lt;/p&gt;
+
+&lt;p&gt;The Foundation’s petition challenges the 88 lease renewals on three major grounds:&lt;/p&gt;
+
+&lt;p&gt;a) The renewal orders violate the directions given in the Supreme Court’s judgement in WP No.435/2012, the earlier PIL filed by the Goa Foundation.&lt;/p&gt;
+
+&lt;p&gt;b) The renewal orders are in violation of specific provisions of the MMDR Act, 1957; the Mineral Concession Rules, 1960 and the MCDR Rules, 1988.&lt;/p&gt;
+
+&lt;p&gt;c) The renewal of the leases violates the constitutional provisions governing the allocation of natural resources, highlighted by the Supreme Court in the cases of the coal block allocations, the judgement in the allocation of spectrum (2G scam) and Presidential Reference.&lt;/p&gt;
+
+&lt;p&gt;It will be recalled that the judgement dated 21.4.2014 specifically gives the Goa Foundation the right to return to the Supreme Court if the lease grants are in violation of the MMDR Act and constitutional norms governing allocation of natural resources to persons for the purpose of profit-making.&lt;/p&gt;
+
+&lt;p&gt;In its judgement dated 21.4.2014, the Supreme Court had declared all mining leases in Goa as “expired” on 22.11.2007. Since the leases had expired, they could not be renewed. However, due to the control of the Mines Department by miners, the Goa government was determined to hand the leases back to the same old lease-holders. Thus, within days of the Supreme Court judgement on 21.4.2014, the Bombay High Court at Goa was approached with writ petitions by former lease-holders. Some of them claimed they had paid stamp duty on demand from the Goa government. The High Court entertained the petitions and directed the government to renew the leases by its judgement dated 13.8.2014. The Goa government resisted the petition filed by the miners in Court by filing an affidavit stating this could not be done. However, it refused to appeal the High Court’s order, forcing the Goa Foundation to approach the Supreme Court instead.&lt;/p&gt;
+
+&lt;p&gt;On November 5, 2014, the Mines Department began approving the first of several second renewals of leases belonging to former lease-holders. As soon as the Goa government came to know that an amendment was being brought to the MMDR Act which would eliminate the possibility of renewing leases, it made great haste to grant a total of 54 renewals in the short span of 6 days. 31 of these renewals were granted on 12.1.2015, on which date the provision to grant second renewal had ceased to exist.&lt;/p&gt;
+
+&lt;p&gt;On 15.1.2015, the Goa government announced its withdrawal of the mining suspension order it had issued three years earlier on 10.9.2012.&lt;/p&gt;
+
+&lt;p&gt;A few months later, on 20.3.2015, the Ministry of Environment &amp;amp; Forests also obliged the mining lobby and revoked its suspension of Environment Clearances in respect of 91 mining leases.&lt;/p&gt;
+
+&lt;p&gt;When the Goa Foundation put the second renewal list (of 88 leases) together with the MOEF order dated 20.3.2015, it found that only 61 leases had both a renewal order and the EC restored.&lt;/p&gt;
+
+&lt;p&gt;Of the 61, only 56 applications were accepted by the Goa Pollution Control Board for the purpose of granting consents to operate under the Air and Water Acts. As of today, some 35 mining leases have been granted consent and can operate, as per information made available under the RTI Act on 15.9.2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Goa Foundation has naturally asked for an interim stay of the operation of these consent orders as they violate the law.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some of the problems with all the leases:&lt;/p&gt;
+
+&lt;p&gt;1) 31 are renewed on 12.2.2015, when the provision for renewing leases ceased to exist on the law   books.&lt;/p&gt;
+
+&lt;p&gt;2) 54 are renewed in just one week (6-12 January, 2015). In none of these cases is there any report   from the IBM as required; in fact, except in one solitary case, there are no such reports after the SC  judgement dated 21.4.2014.&lt;/p&gt;
+
+&lt;p&gt;3) Only 61 have environment clearances restored on 20.3.2015. The renewal of the remaining leases is  therefore pointless.&lt;/p&gt;
+
+&lt;p&gt;4) None of the leases has got the NOC from the standing committee of the NBWL, as required by the   Supreme Court’s order dated 4.8.2006.&lt;/p&gt;
+
+&lt;p&gt;5) 11 Leases have been renewed without forest clearance. These orders are clearly illegal.&lt;/p&gt;
+
+&lt;p&gt;6) Practically 24 leases have violated Section 37. However, government claims it is yet to conduct an   inquiry.&lt;/p&gt;
+
+&lt;p&gt;7) 42 leases have violated Section 38. Results of inquiry, if committed, not known.&lt;/p&gt;
+
+&lt;p&gt;8) All leases of Sesa Goa and two other Sesa companies have been found to be illegal, in violation of MMDR Act, in Justice Shah Report III.
+ &lt;em&gt;(All the above violations are listed in a separate table circulated with this press note.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;9) EAC report findings most damaging. Details of the findings of the EAC report (which was released under RTI, after declaring it confidential) are in a separate table.&lt;/p&gt;
+
+&lt;p&gt;In the above circumstances, it would have been best if the Goa government had issued these leases to itself and then asked mining companies to mine on its behalf under contract and pass the ore extracted to the Government for auction through MMTC. Companies profits would then remain around 10-15%, which is more than enough compensation for mining. However, the Goa government has decided to act against public interest and return the leases to the former lease-holders despite their gross misconduct in the past 8 years when mining took place.&lt;/p&gt;
+
+&lt;p&gt;The equally serious charge made in the petition is that the leases have been granted free of cost, involving iron ore valued at several hundred crores of rupees, all belonging to the people of the State. The figures about this are as follows:&lt;/p&gt;
+
+&lt;table class=&quot;table table-bordered&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Total quantity permitted for extraction as per ECs granted in 88 leases:&lt;/td&gt;
+      &lt;td&gt;43.973 million metric tonnes (MMT), for at least 12 years (Nov-Jan 2014 – 21-Nov-2027)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Value of mineral ore @ Rs. 311.12 crores per MMT&lt;/td&gt;
+      &lt;td&gt;Rs. 164,172 crores&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Extraction costs for 43.973 million tonnes @ Rs. 120.25 crores per MMT&lt;/td&gt;
+      &lt;td&gt;Rs. 63,453 crores&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Net value of iron ore @ Rs. 190.87 crores per MMT&lt;/td&gt;
+      &lt;td&gt;Rs. 100,720 crores&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;Royalty @ Rs. 8.46 crores per MMT to Goa Govt&lt;/td&gt;
+      &lt;td&gt;Rs. 4,467 crores&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Goa Iron Ore Permanent Fund @ 10% of sale value, Rs. 31.11 crores per MMT&lt;/td&gt;
+      &lt;td&gt;Rs. 16,417 crores&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;Net loss to the public of Goa: Rs. 151 crores per MMT&lt;/td&gt;
+      &lt;td&gt;Rs. 79,836 crores&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is not mining or legal mining. It is legal looting of Goa’s resources. This cannot be tolerated. The GF does not have problems with mining, if done through proper controls. At present, the manner in which these leases have been approved show that the former lease holders still control everything that happens in the Department of Mines &amp;amp; Geology. People of Goa will never benefit in such circumstances, though they own the ore collectively and should get all the benefits from its sale.&lt;/p&gt;
+
+&lt;p class=&quot;blog-image&quot;&gt;&lt;img src=&quot;/assets/images/gmpf-cartoon-3.jpg&quot; alt=&quot;Gmpf Cartoon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unless the leases are cancelled, mining in Goa will continue to be affected by the deadly disease of full-blown illegalities which infected it during the past decade. Symptomatic is how Sesa Goa started mining operations at Codli on August 10, in the presence of the CM, without having a valid consent order.&lt;/p&gt;
+
+&lt;p&gt;Right now the issue is whether the SC finds substance in the petition. Since this is a PIL, we are informing the public of the main issues in the petition.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://goafoundation.org/wp-content/uploads/2015/10/88-leases-EAC-Data.pdf&quot;&gt;Leases EAC Data&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://goafoundation.org/wp-content/uploads/2015/10/88-List-of-Major-Violations.pdf&quot;&gt;List of Major Violations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Released to media on 29.9.2015)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Oct 2015 00:00:00 +0530</pubDate>
+        <link>/2015/10/05/goa-foundation-challenges-legal-validity-of-88-mining-leases-in-supreme-court.html</link>
+        <guid isPermaLink="true">/2015/10/05/goa-foundation-challenges-legal-validity-of-88-mining-leases-in-supreme-court.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>NGT disposes of Goa Foundation application for restraint on felling of Tiracol trees</title>
+        <description>&lt;p&gt;The NGT, by an order passed on 13.8.2015, has disposed of an application filed by the Goa Foundation challenging 2 permissions granted for felling of some 250 forest trees on two plots of Tiracol village on the grounds of conflict of these permissions with the Supreme Court’s order on Goa forest identification dated 4.2.2015.&lt;/p&gt;
+
+&lt;p&gt;The Tribunal took serious cognisance of the Supreme Court’s order which prohibited NOC for conversion of any plot in the State of Goa having natural vegetation which is in excess of one ha and which has a canopy density of 10% and above. The Goa Foundation had stated that the area where tree felling was permitted has natural vegetation (forest trees), canopy density of 0.4 and is above 4 ha.&lt;/p&gt;
+
+&lt;p&gt;However, as the tree felling permissions were issued under the Goa Preservation of Trees Act, 1984, the NGT decided that applicant (Goa Foundation) may instead appeal the tree felling permissions before the appellate authority set up under the Trees Act. It directed that if such appeal is filed the Appellate Authority will take cognisance of the Supreme Court’s order dated 4.2.2015 while deciding the appeal.&lt;/p&gt;
+
+&lt;p&gt;In respect of the challenge also raised in the same application that the North Goa Forest District Committee had manipulated the facts at the site to arrive at a decision that the identified forest plots did not meet the Goa government criteria for classification as Private Forest, the NGT granted leave to the Foundation to file a separate application in that regard.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Aug 2015 00:00:00 +0530</pubDate>
+        <link>/2015/08/18/NGT-disposes-of-goa-foundation-application.html</link>
+        <guid isPermaLink="true">/2015/08/18/NGT-disposes-of-goa-foundation-application.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>yes to tiracol! no to leading hotels and golf course!</title>
+        <description>&lt;p&gt;The people of Goa are now getting the complete facts about the proposed Tiracol Golf course project (which is supported by the Parsenkar government). These facts are getting most normal people very angry about the project.&lt;/p&gt;
+
+&lt;p&gt;Though expensive full page advertisements have been issued by Leading Hotels in some Goan papers claiming the lands acquired by the project owners are “barren”, the Environment Impact Assessment report prepared by the company’s own consultants list a total of 19,000 plus plants and trees on the property.&lt;/p&gt;
+
+&lt;p&gt;The report also indicates that a total of 1966 trees will be felled for the project.&lt;/p&gt;
+
+&lt;p&gt;How then does the land in question become “barren”?&lt;/p&gt;
+
+&lt;p&gt;In one survey number alone (No.4/1), the Forest Department of Goa has granted permission to Leading Hotels to cut 155 trees!&lt;/p&gt;
+
+&lt;p&gt;The company has claimed it will help the village with water. However, it has submitted a proposal to install 17 bore wells on the property. Since these wells fall within the uppermost part of the property and the village is located below, these new bore wells are bound to ensure that the village community is eventually starved of the water in its existing wells.&lt;/p&gt;
+
+&lt;p&gt;The total area of the village of Tiracol is 13,84,000 sq.mts. Four sale deeds signed between Leading Hotels and the Khalaps (of Mapusa) transfer 12,18,589 sq.mts to the company. Of the balance, Government of Goa (through Tiracol Fort) owns 1,50,582 sq.mts. Sy.No.16/1 which houses the present Tiracol village settlement (which comprises mostly mundkarial houses) is also sold to the company. This means  practically the entire village of Tiracol has been rendered homeless. The entire environment outside Sy.No.16/1 has been taken away from them and their use.&lt;/p&gt;
+
+&lt;p&gt;It is a shame that the Government of Goa, Town Planning Department, Collector (North), Goa Pollution Control Board and other Government authorities could approve such a project when they should be protecting the interests of Goans. Instead, they appear ready and willing to pack them off forever from their ancestral lands!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 +0530</pubDate>
+        <link>/2015/06/08/yes-to-tiracol-no-to-hotels-and-golf-course.html</link>
+        <guid isPermaLink="true">/2015/06/08/yes-to-tiracol-no-to-hotels-and-golf-course.html</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
