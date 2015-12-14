@@ -1,0 +1,116 @@
+---
+layout: post
+title:  "Mining Companies Fight Permanent Fund"
+date: 2015-12-14
+description: ""
+---
+
+GOA FOUNDATION CRITICISES APPLICATIONS OF VEDANTA AND
+OTHER MINING COMPANIES IN THE SUPREME COURT AGAINST
+THE GOA IRON ORE PERMANENT FUND
+
+  1. The Supreme Court, tomorrow (15 December, 2015) will hear applications
+  from 5 mining companies against the continuance of the Goa Iron ore
+  Permanent Fund.
+
+  2. There are at the present, 5 IAs which have been filed by 5 mining
+  companies challenging the set up of the Goa Iron Ore Permanent Fund on
+  various grounds.
+
+  3. These applications have been filed by Vedanta, Fomento, G.N. Aggarwal,
+  Geetabhai Parulekar and Prafulla Hede. Prafulla Hede mine is located in 1
+  km zone from Mollem Wildlife Sanctuary and the lease has not been
+  renewed.
+
+  4. Vedanta's application (I.A. No 87) seeks a “clarification” of the Goa
+  Foundation judgement dated 21.4.2014 which required all mining companies
+  to deposit 10% of sale value of ores extracted and sold by them in a special
+  Goan Iron Ore Permanent Fund for the benefit of future generations. The
+  application tells the Court that when the Court passed its judgement in the
+  1Goa Foundation case, admikttedly there was no provision for raising money
+  from miners to compensate for environmental damage and harm to village
+  communities. However, after the Mines Act was amended in 2015, there is
+  now a provision for setting up District Mineral Foundations in each mining
+  district. Hence there is no further need for the Permanent Fund and in any
+  case, this would be an instance of “double taxation”.
+
+  5. IAs filed by G.N. Aggarwal and Fomento challenge the idea of the
+  Permanent Fund, claiming the issue of a Permanent Fund did not find a
+  place during the hearings that led to judgement dated 21.4.2014 and
+  therefore they were not heard in the matter. They also state that the
+  international price of iron ore has dropped and therefore payments to the
+  Permanent Fund would make mining unviable. Geetabhai Parulekar and
+  Prafulla Hede want their mining activity to be governed by the amended
+  MMDR Act, 1957, in terms of the District Mineral Fund (and not the Goa
+  Permanent Fund).
+
+  6. The Vedanta application sets out a willful confusion between the nature of a
+  Permanent Fund (set up under the judgement dated 21.4.2014) and the
+  nature of the District Mineral Fund (DMF) set up under Section 9A of the
+  amended MMDR Act, 1957. The two are different agencies, addressing
+  different aspects of sustainability and Intergenerational Equity.
+
+  7. The nature of the DMF can be described succinctly in the following terms:
+
+    a) DMF would provide for the expenditures related to rehabilitation of
+    environment caused by mining activity. This would also include harm to
+    affected village communities in which the activity is being carried out.
+    Scope of DMF operations is the district.
+
+    2b) The DMF is therefore a spending fund: money deposited in the Fund
+    is to be spent on activities covered under the amendment. Therefore,
+    the DMF would be in the form of a non-profit trust.
+
+  8. The nature of the Permanent Fund is the very opposite, and can be
+  described succintly in the following terms:
+
+    a) The PF would deal with the requirement of meeting the demands of
+    intergenerational equity, that is, the interests of future generations, not
+    only the present. Therefore, by definition, it would be a fund that would
+    save, not spend.
+
+    b) Principal activity of the fund would be protection against inflation,
+    investment in activities that would create durable assets in the long
+    term, etc. PF area would be the entire state. In contrast with the DMF,
+    the Fund would be a profit making activity. Fund managers must ensure
+    intelligent investments to ensure economic yields, in order to maintain
+    the original value of the fund. The public exchequer would benefit only
+    when there is a surplus after adjusting for inflation.
+
+  9. The Expert Committee of the Supreme Court, in fact, has said that the idea
+  of the Goan Iron Ore Permanent Fund should now be applied in all states
+  where such mining is taking place.
+
+  10. According to the Goa Foundation, Vedanta should be the last person to file
+  this application. It is well established that the Applicant Vedanta benefitted
+  well beyond any reasonable measure from iron ore extraction belonging to
+  the present and future generations of people living in Goa.
+
+  The largesse garnered by the company in the past 8 years of mining is simply staggering.
+  Based on the applicant’s annual reports, our estimates show that during the
+  last 8 full years of mining (2004-05 – 2011-12), the applicant sold Rs. 33,280
+  3crores of iron ore and reported a profit after tax to the extent Rs. 12,346
+  crores! A generous 20% return on assets would have been only Rs. 1,239
+  crores. Thus, Vedanta’s excess profits were to the tune of Rs. 11,108 crores.
+  Had the Permanent Fund imposition been in place during these 8 years, the
+  applicant would have had to pay only a maximum of Rs 3,328 crores, still
+  much smaller than the excess profits that accrued to it.
+
+  This amount would still have been saved for the owners of the iron ore, the future generations of
+  Goans. Through this application, the applicant is now trying to deny even
+  this pittance and caviling at a small amount to be saved for Goa’s future
+  generations.
+
+  11. The Goa Foundation is telling the Apex Court that Goans are not beggars
+  who are ready to sell their ore at throwaway rates. If the mining companies
+  are not able to make their contributions to the Permanent Fund, the
+  Government should step in and resume the leases. The ore is owned by the
+  government in any case, on behalf of the public. Prior to 2004, when the
+  mining boom commenced, most mines preferred to remain shut rather than
+  sell ore at ridiculously low international prices.
+
+   {: .author-sign}
+   ![author-signature](/assets/images/signature.png)
+
+  (Dr Claude Alvares)
+  Director
